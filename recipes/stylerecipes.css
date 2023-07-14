@@ -1,0 +1,54 @@
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    background: linear-gradient(180deg, #FFEEEE, #010101);
+    height: 400vh;
+}    
+.header {
+    font-size: 36px;
+    font-weight: 900;
+    text-decoration: underline;
+
+
+}
+  h3 { 
+    font-size: 30px;
+    text-decoration:underline;
+  }  
+ul li {
+   margin-top: 20px;
+    list-style-type: none;
+    text-decoration: none;
+    
+    }
+a {
+    color: rgb(250, 37, 8);
+   
+   font-size: x-large;
+   text-shadow: 1px 1px 2px black;
+}
+.ingredients,.description {
+
+    display: block;
+    margin:auto;
+    border-radius: 25px;
+    width: min(70%, 500px);
+    box-shadow: 0px 0px 25px rgba(244, 126, 8, 0.479);
+    color: rgb(250, 37, 8);
+    font-size: 20px;
+   text-shadow: 1px 1px 2px black;
+
+}
+ .steps {
+    display: block;
+    margin:auto;
+    border-radius: 25px;
+    width: min(70%, 500px);
+    box-shadow: 0px 0px 25px rgba(2, 2, 2, 0.479);
+    color: rgb(4, 4, 4);
+    font-size: 20px;
+   text-shadow: 1px 1px 2px black;
+ }
+
+
